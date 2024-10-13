@@ -17,10 +17,10 @@ Esta é uma solução para o desafio alternativo do Front end mentor "Profile ca
 ### O desafio
 Consiste em realizar um layout (tanto para desktop quanto para mobile), de um cartão de perfil inicial, que siga corretamente o design proposto, colocando as informações corretamente, com o uso do flexbox.
 
-
+<img src="./src/images/Captura de tela-profilecard.png">
 
 ### Link
-
+- URL do site ativo: https://mandiilorenzo.github.io/profile-card/ 
 
 ## Meu processo
 
@@ -34,6 +34,7 @@ Consiste em realizar um layout (tanto para desktop quanto para mobile), de um ca
  - Maior habilidade no uso de variáveis para um código mais limpo.
  - Melhoria na prática de uso do flexbox.
  - Prática no posicionamento de background-image.
+ - Apromiramento de habilidades para responsividade do layout.
 
  ### Recursos úteis
  - Google fonts: para estilizar as fontes, conforme o desafio pediu.
@@ -41,3 +42,4 @@ Consiste em realizar um layout (tanto para desktop quanto para mobile), de um ca
  - Perfect pixel: para auxiliar nos valores das propriedades de height, width, padding e margin, e chegar o mais próximo possível, do layout do desafio.
 
  ## Autora
+ https://github.com/mandiilorenzo
