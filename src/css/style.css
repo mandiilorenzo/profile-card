@@ -1,0 +1,102 @@
+body {
+    background: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+    background-position: right 50vw top -90vh, left 50vw bottom -90vh;
+    background-repeat: no-repeat;
+    background-color: var(--primary-blue);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 20px;
+    width: 350px;
+    height: 375px;
+}
+
+.imagem-azul {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cartao-perfil .informacoes-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    position: relative;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.cartao-perfil .informacoes-perfil .idade {
+    padding-left: 8px;
+}
+
+.informacoes-perfil .title-name {
+    margin-top: 30px;
+}
+
+.informacoes-perfil .cidade {
+    padding: 5px;
+}
+
+.cartao-perfil .numeros-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+    border-top: 0.2px solid var(--primary-gray);
+}
+
+.numeros-perfil .contagem {
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.numeros-perfil .tipo-contagem {
+    display: flex;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.informacoes-perfil .title-name,
+.numeros-perfil .contagem {
+    font-weight: 700;
+}
+
+.cidade, 
+.idade,
+.tipo-contagem {
+    color: var(--primary-gray);
+    font-weight: 400;
+}
+
+
+

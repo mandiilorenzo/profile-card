@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+    body {
+        background: url(../images/bg-pattern-top.svg),
+        url(../images/bg-pattern-bottom.svg);
+        background-position: right 50vw top -50vh, left 50vw bottom -50vh;
+        background-repeat: no-repeat;
+        background-color: var(--primary-blue);
+        font-family: "Kumbh Sans", sans-serif;
+    }
+}
+
